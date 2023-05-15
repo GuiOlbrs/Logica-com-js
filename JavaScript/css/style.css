@@ -1,0 +1,321 @@
+.fapcat{
+    width: 100%;
+    margin: 0px auto;
+    background-color:  #f2f2f2;;
+    align-content:center
+}
+.Exercicio1{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    
+
+}
+.fapcat p{
+    font-size: 20px;
+    font-size: 24px;
+	font-weight: bold;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    width:260px;
+    height: 100px;
+    position: relative;
+    margin-left: 495px;
+    margin: auto;
+   
+}
+
+.inputs input{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 0px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border: none;
+}
+
+.Exercicio1 .btn{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 50px;
+    height: 35px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.Exercicio1 .btn1{
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+    width: 50px;
+    height: 35px;
+    background-color: #c14242;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+.Exercicio2{
+    justify-content:center;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.Exercicio2 .btn{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 50px;
+    height: 35px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.Exercicio2 .btn1{
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+    width: 50px;
+    height: 35px;
+    background-color: #c14242;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.inputs2{
+    display: flex;
+    flex-wrap: wrap;
+    width:260px;
+    height: 100px;
+    position: relative;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+ .b{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border: none;
+}
+.Exercicio3{
+    text-align: center;
+   
+}
+
+.Exercicio3 .btn{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 50px;
+    height: 35px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.Exercicio3 .btn1{
+    position: absolute;
+    bottom: 45px;
+    right: 0px;
+    width: 60px;
+    height: 35px;
+    background-color: #c14242;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.inputs3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    position: relative;
+    margin: auto;
+}
+ .d{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border: none;
+}
+
+.Exercicio3 .btn{
+    width: 60px;
+    right: 0px;
+}
+
+.Exercicio3 .e{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border: none;
+}
+.Exercicio4{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Exercicio4 .btn{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 50px;
+    height: 60px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.Exercicio4 .btn1{
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    width: 50px;
+    height: 75px;
+    background-color: #c14242;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+.inputs4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    position: relative;
+    margin: auto;
+}
+
+.Exercicio5{
+    text-align: center;
+}
+.Exercicio5 .btn, .Exercicio4 .btn{
+    height: 75px;
+}
+
+.Exercicio5 .btn{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 50px;
+    height: 77px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+.Exercicio5 .btn1{
+    height: 75px;
+    position: absolute;
+    bottom: 8.5px;
+    right: 0px;
+    width: 50px;
+    height: 77px;
+    background-color: #c14242;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.btn1Limpar{
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    width: 50px;
+    height: 75px;
+    background-color: #c14242;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.visor{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border: none;
+}
+
+.btn30{
+    position: absolute;
+    bottom: 85px;
+    right: 0px;
+    width: 50px;
+    height: 75px;
+    background-color: #c14242;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.viso1r{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border: none;
+}
+
+.btn1Entrar{
+    position: absolute;
+    bottom: 60px;
+    right: 0px;
+    width: 60px;
+    height: 35px;
+    background-color: #078818;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.visor2{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border: none;
+}
+
+.btn1Login{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 15px;
+    right: 0px;
+    width: 60px;
+    height: 35px;
+    background-color: #c14242;
+    color: #fff;
+    border: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}

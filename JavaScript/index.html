@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="fapcat">
+    <div class="Exercicio1">
+        <p>Ex 01: Troca Valores</p>
+        <div class="inputs">
+            <input class="a" type="text" placeholder="Número A:" id="a">
+            <input class="b" type="text" placeholder="Número B:" id="b">
+            <button class="btn" onclick="ex01()">Trocar</button>
+            <button class="btn1" onclick="ex01Limpa()">Limpar</button>
+        </div>
+    </div>
+    <div class="Exercicio2">
+        <p>Ex 02: sucessor</p>
+        <div class="inputs2">
+            <input class="b" type="text" placeholder="Número A:" id="c">
+            <input class="b" type="text" placeholder="sucessor:" id="d" disabled>
+            <button class="btn" onclick="ex02()">Ver</button>
+            <button class="btn1" onclick="ex02Limpa()">Limpar</button>
+        </div>
+    </div>
+    <div class="Exercicio3">
+        <p>Ex 03: área do triangulo</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Base: " id="base">
+            <input class="d" type="text" placeholder="Altura: " id="altura">
+            <input class="e" type="text" placeholder="área do retângulo:" id="area" disabled>
+            <button class="btn" onclick="ex03()">Calcular</button>
+            <button class="btn1" onclick="ex03Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio4">
+        <p>Ex 04: Calcula dias de vida</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Quantos anos: " id="anos">
+            <input class="b" type="text" placeholder="Quantos meses: " id="meses">
+            <input class="b" type="text" placeholder="Quantos dias:" id="dias">
+            <input class="b" type="text" placeholder="Idade em dias:" id="idadedias" disabled>
+            <button class="btn" onclick="ex04()">Calcular</button>
+            <button class="btn1" onclick="ex04Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio5">
+        <p>Ex 05: Calcula Votos</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Número de eleitores: " id="totalEleitores">
+            <input class="b" type="text" placeholder="Número de votos brancos: " id="vBrancos">
+            <input class="b" type="text" placeholder="Número de votos nulos:" id="Vnulos">
+            <input class="b" type="text" placeholder="Número de votos validos:" id="Validos">
+            <button class="btn" onclick="ex05()">Calcular</button>
+            <button class="btn1" onclick="ex05Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 06: Reajuste salario</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Salario: " id="salario">
+            <input class="d" type="text" placeholder="Reajuste em %: " id="reajuste">
+            <input class="e" type="text" placeholder="Novo salario:" id="salarioFinal" disabled>
+            <button class="btn" onclick="ex06()">Calcular</button>
+            <button class="btn1" onclick="ex06Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio1">
+        <p>Ex 07: Valor final do carro</p>
+        <div class="inputs">
+            <input class="a" type="text" placeholder="Custo de Fabricação:" id="custo">
+            <input class="b" type="text" placeholder="Valor final:" id="valorFinal" disabled>
+            <button class="btn" onclick="ex07()">Calcular</button>
+            <button class="btn1" onclick="ex07Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio5">
+        <p>Ex 08: Salario revendedora de carros</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Número de carros vendidos: " id="CarrosVendidos">
+            <input class="b" type="text" placeholder="Valor total das vendas : " id="ValorVendas">
+            <input class="b" type="text" placeholder="Salario Fixo:" id="SalarioFixo">
+            <input class="b" type="text" placeholder="Número de votos validos:" id="Validos2" disabled>
+            <button class="btn" onclick="ex08()">Calcular</button>
+            <button class="btn1" onclick="ex08Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio1">
+        <p>Ex 09: Graus Fahrenheit em Graus Celsius</p>
+        <div class="inputs">
+            <input class="a" type="text" placeholder="Graus em Fahrenheit:" id="Fahrenheit">
+            <input class="b" type="text" placeholder="Graus em Celsius:" id="Celsius" disabled>
+            <button class="btn" onclick="ex09()">Calcular</button>
+            <button class="btn1" onclick="ex09Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio5">
+        <p>Ex 10: Média Ponderada</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Nota 1 (peso 2): " id="n1">
+            <input class="b" type="text" placeholder="Nota 2 (peso 3): " id="n2">
+            <input class="b" type="text" placeholder="Nota 3 (peso 5):" id="n3">
+            <input class="b" type="text" placeholder="Média :" id="media" disabled>
+            <button class="btn" onclick="ex10()">Calcular</button>
+            <button class="btn1" onclick="ex10Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio1">
+        <p>Ex 11: Maior ou Menor que 10</p>
+        <div class="inputs">
+            <input class="a" type="text" placeholder="Número :" id="numero">
+            <input class="b" type="text" placeholder="" id="resultado" disabled>
+            <button class="btn" onclick="ex11()">Calcular</button>
+            <button class="btn1" onclick="ex11Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio1">
+        <p>Ex 12: Positivo ou Negativo</p>
+        <div class="inputs">
+            <input class="a" type="text" placeholder="Número :" id="num">
+            <input class="b" type="text" placeholder="" id="result" disabled>
+            <button class="btn" onclick="ex12()">Calcular</button>
+            <button class="btn1" onclick="ex12Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio1">
+        <p>Ex 13: Valor maçãs</p>
+        <div class="inputs">
+            <input class="a" type="text" placeholder="Quantidade de maçãs :" id="maca">
+            <input class="b" type="text" placeholder="Valor total R$:" id="valormaca" disabled>
+            <button class="btn" onclick="ex13()">Calcular</button>
+            <button class="btn1" onclick="ex13Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 14: Média Aprovado/Reprovado</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Nota 1: " id="nota1">
+            <input class="d" type="text" placeholder="Nota 2: " id="nota2">
+            <input class="e" type="text" placeholder="status:" id="situacao" disabled>
+            <button class="btn" onclick="ex14()">Calcular</button>
+            <button class="btn1" onclick="ex14Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 15: Pode votar</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Ano nascimento: " id="AnoNasc">
+            <input class="d" type="text" placeholder="Ano atual: " id="AnoAtual">
+            <input class="e" type="text" placeholder="Situação:" id="statuss" disabled>
+            <button class="btn" onclick="ex15()">Ver</button>
+            <button class="btn1" onclick="ex15Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 16: Maior valor</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Valor 1: " id="valor1">
+            <input class="d" type="text" placeholder="Valor 2: " id="valor2">
+            <input class="e" type="text" placeholder="Maior valor:" id="MaiorValor" disabled>
+            <button class="btn" onclick="ex16()">Ver</button>
+            <button class="btn1" onclick="ex16Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 17: Ordem crescente</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Valor 1: " id="val1">
+            <input class="d" type="text" placeholder="Valor 2: " id="val2">
+            <input class="e" type="text" placeholder="Ordem crescente:" id="ordem" disabled>
+            <button class="btn" onclick="ex17()">Ver</button>
+            <button class="btn1" onclick="ex17Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 18: Duração jogo de xadrez</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Hora inicio: " id="horaInicio">
+            <input class="d" type="text" placeholder="Hora final: " id="horaFinal">
+            <input class="e" type="text" placeholder="Duração:" id="durou" disabled>
+            <button class="btn" onclick="ex18()">Ver</button>
+            <button class="btn1" onclick="ex18Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 19: Calcula horas extras</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Horas trabalhadas esse mês: " id="horasTra">
+            <input class="d" type="text" placeholder="Valor da hora: " id="valorHora">
+            <input class="e" type="text" placeholder="Salario:" id="salFinal" disabled>
+            <button class="btn" onclick="ex19()">Calcular</button>
+            <button class="btn1" onclick="ex19Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 20: Salario mais comissão loja</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="salario fixo:" id="salFixo">
+            <input class="d" type="text" placeholder="Valor das vendas: " id="valorVenda">
+            <input class="e" type="text" placeholder="Salario total:" id="tot" disabled>
+            <button class="btn" onclick="ex20()">Calcular</button>
+            <button class="btn1" onclick="ex20Limpa()">Limpar</button>
+        </div>
+    </div>
+    <div class="Exercicio5">
+        <p>Ex 21: Caixa eletronico</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Número da conta: " id="numConta">
+            <input class="b" type="text" placeholder="Saldo da conta: " id="saldo">
+            <input class="b" type="text" placeholder="Crédito:" id="credito">
+            <input class="b" type="text" placeholder="Débito" id="debito">
+            <input class="visor" type="text" placeholder="Valor em conta:" id="visor" disabled>
+            <button class="btn" onclick="ex21()">Calcular</button>
+            <button class="btn1Limpar" onclick="ex21Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio5">
+        <p>Ex 22: Controle de estoque</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Quantidade atual em estoque:" id="QtdAtual">
+            <input class="b" type="text" placeholder="Quantidade máxima em estoque: " id="QtdMaxima">
+            <input class="b" type="text" placeholder="Quantidade mínima em estoque:" id="QtdMinima">
+            <input class="b" type="text" placeholder="Quantidade média em estoque:" id="QtdMedia" disabled>
+            <button class="btn" onclick="ex22()">Calcular</button>
+            <button class="btn1" onclick="ex22Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio5">
+        <p>Ex 23: Maior valor</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Primeiro valor:" id="V1">
+            <input class="b" type="text" placeholder="Segundo valor: " id="V2">
+            <input class="b" type="text" placeholder="Terceiro valor:" id="V3">
+            <input class="b" type="text" placeholder="Maior valor:" id="Vmaior" disabled>
+            <button class="btn" onclick="ex23()">Calcular</button>
+            <button class="btn1" onclick="ex23Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio5">
+        <p>Ex 24: Soma dos maiores</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Primeiro valor:" id="Val1">
+            <input class="b" type="text" placeholder="Segundo valor: " id="Val2">
+            <input class="b" type="text" placeholder="Terceiro valor:" id="Val3">
+            <input class="b" type="text" placeholder="Soma dos maiores:" id="SomaMaior" disabled>
+            <button class="btn" onclick="ex24()">Calcular</button>
+            <button class="btn1" onclick="ex24Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio5">
+        <p>Ex 25: Ordem crescente</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Primeiro valor:" id="Val01">
+            <input class="b" type="text" placeholder="Segundo valor: " id="Val02">
+            <input class="b" type="text" placeholder="Terceiro valor:" id="Val03">
+            <input class="b" type="text" placeholder="Ordem crescente:" id="OrdemCrescente" disabled>
+            <button class="btn" onclick="ex25()">Ver</button>
+            <button class="btn1" onclick="ex25Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio5">
+        <p>Ex 26: É um triangulo: </p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Lado A:" id="A1">
+            <input class="b" type="text" placeholder="Lado B: " id="B1">
+            <input class="b" type="text" placeholder="Lado C:" id="C1">
+            <input class="b" type="text" placeholder="resultado:" id="resultadoTriangulo" disabled>
+            <button class="btn" onclick="ex26()">Ver</button>
+            <button class="btn1" onclick="ex26Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio5">
+        <p>Ex 27: Time vencedor</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Nome time 1: " id="time1">
+            <input class="b" type="text" placeholder="Gols time 1: " id="gols1">
+            <input class="b" type="text" placeholder="Nome time 2:" id="time2">
+            <input class="b" type="text" placeholder="Gols time 2: id" id="gols2">
+            <input class="visor" type="text" placeholder="vencedor: " id="vence" disabled>
+            <button class="btn" onclick="ex27()">Ver</button>
+            <button class="btn1Limpar" onclick="ex27Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 28: Maior, menor ou igual</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Primeiro valor:" id="p1">
+            <input class="d" type="text" placeholder="Segundo valor: " id="p2">
+            <input class="e" type="text" placeholder="Mensagem:" id="men" disabled>
+            <button class="btn" onclick="ex28()">Ver</button>
+            <button class="btn1" onclick="ex28Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 29: Preço do combustivel</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Quantos Litros:" id="litrosCombus">
+            <input class="d" type="text" placeholder="Tipo: [A] Álcool / [G] Gasolina: " id="tipoCombus">
+            <input class="e" type="text" placeholder="Valor R$:" id="valorCombus" disabled>
+            <button class="btn" onclick="ex29()">Calcular</button>
+            <button class="btn1" onclick="ex29Limpa()">Limpar</button>
+        </div>
+    </div>
+    
+    <div class="Exercicio5">
+        <p>Ex 30: Soma homem mais velho com mulher mais nova</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Idade Homem 1: " id="homem1">
+            <input class="b" type="text" placeholder="Idade Homem 2: " id="homem2">
+            <input class="b" type="text" placeholder="Idade Mulher 1:" id="mulher1">
+            <input class="b" type="text" placeholder="Idade Mulher 2:" id="mulher2">
+            <input class="visor" type="text" placeholder="Homem mais velho + mulher mais nova " id="SomaIdade" disabled>
+            <input class="viso1r" type="text" placeholder="Homem mais Novo X mulher mais velha " id="ProdutoIdade" disabled>
+            <button class="btn" onclick="ex30()">Calcular</button>
+            <button class="btn30" onclick="ex30Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 31: Preço frutas. Morango/Maçã</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="KG morangos:" id="kgMorango">
+            <input class="d" type="text" placeholder="KG maça: " id="kgMaça">
+            <input class="e" type="text" placeholder="Valor R$:" id="valorFrutas" disabled>
+            <button class="btn" onclick="ex31()">calcular</button>
+            <button class="btn1" onclick="ex31Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio3">
+        <p>Ex 32: Sistema de Login</p>
+        <div class="inputs3">
+            <input class="d" type="text" placeholder="Usuario:" id="Usuario">
+            <input class="d" type="text" placeholder="Senha: " id="Senha"  type="password" disabled>
+            <input class="visor2" type="text" placeholder="" id="Resp" disabled>
+            <button class="btn" onclick="ex32Verificar()">Verificar</button>
+            <button class="btn1Entrar" onclick="ex32Entrar()">Entrar</button>
+            <button class="btn1Login" onclick="ex32Limpa()">Limpar</button>
+        </div>
+    </div>
+    
+    <div class="Exercicio5">
+        <p>Ex 33: Mercado, calcular conta: </p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Produto:" id="prod">
+            <input class="b" type="text" placeholder="Quantidade: " id="quant">
+            <input class="b" type="text" placeholder="preço unidade R$:" id="precoMer">
+            <input class="b" type="text" placeholder="Total:" id="totMer" disabled>
+            <button class="btn" onclick="ex33()">Calcular</button>
+            <button class="btn1" onclick="ex33Limpa()">Limpar</button>
+        </div>
+    </div>
+
+    <div class="Exercicio5">
+        <p>Ex 24: Media com conceito</p>
+        <div class="inputs4">
+            <input class="b" type="text" placeholder="Nota 1: " id="NConceito1">
+            <input class="b" type="text" placeholder="Nota 2: " id="NConceito2">
+            <input class="b" type="text" placeholder="Nota 3:" id="NConceito3">
+            <input class="b" type="text" placeholder="Média dos exercicios: " id="MediaEx">
+            <input class="visor" type="text" placeholder="conceito: " id="Conceito" disabled>
+            <button class="btn" onclick="ex34()">Calcular</button>
+            <button class="btn1Limpar" onclick="ex34Limpa()">Limpar</button>
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="js/script.js"></script>
+</html>
+
+ 
